@@ -22,10 +22,7 @@
 
 | Tên Môn Học / Học Phần | Trạng Thái | Đánh Giá / Điểm Số |
 | :--- | :--- | :--- |
-| Nhập môn Lập trình (C/C++) | Đã hoàn thành | Điểm: A (8.5) |
-| Cấu trúc dữ liệu & Giải thuật | Đã hoàn thành | Điểm: B+ (8.0) |
 | Thiết kế Web cơ bản (HTML/CSS/JS) | **Đang học** | Đang làm bài tập lớn |
-| Cơ sở dữ liệu | Học kỳ tới | Chưa tích lũy |
 
 ### 🛠️ Kỹ năng công nghệ hiện tại:
 * **Ngôn ngữ:** HTML5, CSS3, JavaScript cơ bản.
@@ -38,7 +35,7 @@
 ### 🌐 Dự án: Trang web Portfolio cá nhân
 * **Mô tả:** Ứng dụng các kiến thức đã học về HTML và CSS để xây dựng giao diện hồ sơ trực tuyến.
 * **Kết quả đạt được:** Biết cách chia bố cục (Layout), làm giao diện phản hồi (Responsive) trên điện thoại và máy tính.
-* **Xem trang web chạy thực tế:** [Bấm vào đây để xem bản Web Online](https://github.com/kienquoc2007/MyWed) *(Thay link GitHub Pages của bạn vào đây)*
+* **Xem trang web chạy thực tế:** [Bấm vào đây để xem bản Web Online](https://github.com/kienquoc2007/MyWed) *([https://github.com/kienquoc2007/MyWed])*
 
 ---
 
