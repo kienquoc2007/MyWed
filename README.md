@@ -1,60 +1,51 @@
-# 👋 Xin Chào, Mình Là Sinh Viên IT
+# 🎓 HỒ SƠ SINH VIÊN & BÁO CÁO HỌC TẬP
 
-## 🎓 Giới Thiệu
-
-Mình hiện đang là sinh viên đang học lập trình web tại trường.  
-Mình yêu thích công nghệ và đang tìm hiểu về cách xây dựng website hiện đại.
-
-Hiện tại mình đang học:
-
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
+> **Bài tập cá nhân / Hồ sơ học tập**  
+> **Sinh viên thực hiện:** Phạm Võ Kiến Quốc
+> **Mã số sinh viên:** CĐ-CNTT19A27 
 
 ---
 
-# 💻 Mục Tiêu
-
-- Hoàn thành tốt việc học trên trường
-- Xây dựng các dự án web cá nhân
-- Trở thành Frontend Developer trong tương lai
-
----
-
-# 🛠️ Kỹ Năng Đang Học
-
-| Kỹ năng | Mức độ |
-|---|---|
-| HTML | ⭐⭐⭐⭐ |
-| CSS | ⭐⭐⭐ |
-| JavaScript | ⭐⭐ |
-| GitHub | ⭐⭐ |
+## 👤 1. Thông Tin Cá Nhân
+* **Họ và tên:**Phạm Võ Kiến Quốc
+* **Lớp:** CNTT19
+* **Khoa:**ĐIỆN-ĐIỆN TỬ
+* **Trường:** Cao Đẳng Kỹ Thuật Công Nghệ Nha Trang
+* **Email sinh viên:**quocpham.150807@gmail.com
+* **Định hướng:** Lập trình viên Website
 
 ---
 
-# 📚 Dự Án Nhỏ
+## 📊 2. Kết Quả Học Tập & Kỹ Năng Tích Lũy
 
-## 🌐 Website Đầu Tiên
-Website giới thiệu bản thân bằng HTML và CSS.
+### Đang trong quá trình học tập và rèn luyện tại trường:
 
-## 📝 Todo List
-Ứng dụng quản lý công việc đơn giản bằng JavaScript.
+| Tên Môn Học / Học Phần | Trạng Thái | Đánh Giá / Điểm Số |
+| :--- | :--- | :--- |
+| Nhập môn Lập trình (C/C++) | Đã hoàn thành | Điểm: A (8.5) |
+| Cấu trúc dữ liệu & Giải thuật | Đã hoàn thành | Điểm: B+ (8.0) |
+| Thiết kế Web cơ bản (HTML/CSS/JS) | **Đang học** | Đang làm bài tập lớn |
+| Cơ sở dữ liệu | Học kỳ tới | Chưa tích lũy |
 
----
-
-# 📫 Liên Hệ
-
-- 📧 Email: yourmail@gmail.com
-- 💻 GitHub: https://github.com/yourname
-- 🌐 Facebook: https://facebook.com/yourname
-
----
-
-# ✨ Câu Nói Yêu Thích
-
-> "Mỗi ngày học một ít, tương lai sẽ giỏi hơn hôm nay."
+### 🛠️ Kỹ năng công nghệ hiện tại:
+* **Ngôn ngữ:** HTML5, CSS3, JavaScript cơ bản.
+* **Công cụ:** Git, GitHub, Visual Studio Code.
 
 ---
 
-⭐ Cảm ơn bạn đã ghé thăm hồ sơ GitHub của mình!
+## 📂 3. Sản Phẩm & Bài Tập Đã Thực Hiện
+
+### 🌐 Dự án: Trang web Portfolio cá nhân
+* **Mô tả:** Ứng dụng các kiến thức đã học về HTML và CSS để xây dựng giao diện hồ sơ trực tuyến.
+* **Kết quả đạt được:** Biết cách chia bố cục (Layout), làm giao diện phản hồi (Responsive) trên điện thoại và máy tính.
+* **Xem trang web chạy thực tế:** [Bấm vào đây để xem bản Web Online](https://github.com/kienquoc2007/MyWed) *(Thay link GitHub Pages của bạn vào đây)*
+
+---
+
+## 🎯 4. Mục Tiêu Học Tập Tiếp Theo
+* [ ] Nắm vững kiến thức nâng cao về JavaScript để xử lý logic web tốt hơn.
+* [ ] Học cách quản lý source code bằng Git theo nhóm để làm bài tập lớn.
+* [ ] Đạt điểm số tích lũy môn chuyên ngành từ loại Khá/Giỏi trở lên.
+
+---
+<p align="center"><i>Cảm ơn Thầy đã dành thời gian xem qua hồ sơ học tập của em!</i></p>
