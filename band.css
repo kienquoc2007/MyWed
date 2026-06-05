@@ -1,116 +1,62 @@
-
-/* Thiết lập cơ bản */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* --- CÀI ĐẶT CHUNG --- */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
-    color: #000;
+  margin: 0; /* Xóa lề trắng mặc định của trình duyệt */
+  font-family: Arial, sans-serif; /* Đổi font chữ cho dễ nhìn */
 }
 
-/* ====================
-   THANH ĐIỀU HƯỚNG
-==================== */
-.navbar {
-    background-color: #000;
-    display: flex;
-    justify-content: space-between; /* Đẩy icon tìm kiếm sang phải */
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
+/* --- 1. THANH MENU --- */
+.thanh-menu {
+  background-color: black; /* Màu nền đen */
+  padding: 15px 20px;      /* Căn lề bên trong (trên/dưới 15px, trái/phải 20px) */
 }
 
-.nav-links {
-    list-style-type: none;
-    display: flex;
+.thanh-menu a {
+  color: white;            /* Chữ màu trắng */
+  text-decoration: none;   /* Bỏ gạch chân ở dưới chữ */
+  margin-right: 25px;      /* Khoảng cách giữa các chữ */
+  font-weight: bold;
 }
 
-.nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 16px 24px;
-    display: inline-block;
-    font-size: 15px;
+.nut-tim-kiem {
+  color: white;
+  float: right;            /* Đẩy biểu tượng kính lúp sang tít bên phải */
+  cursor: pointer;         /* Đổi con trỏ chuột thành hình bàn tay khi chỉ vào */
 }
 
-/* Hiệu ứng di chuột vào link */
-.nav-links li:hover > a {
-    color: #000;
-    background-color: #ccc;
+/* --- 2. NỘI DUNG CHÍNH --- */
+.noi-dung-chinh {
+  width: 800px;            /* Giới hạn độ rộng để chữ không bị kéo dài ra sát mép màn hình */
+  margin: 50px auto;       /* Tự động căn giữa toàn bộ khối nội dung này */
 }
 
-.search-btn {
-    padding: 16px 24px;
-    color: white;
-    cursor: pointer;
+.tieu-de {
+  text-align: center;      /* Căn giữa chữ */
+  letter-spacing: 5px;     /* Làm các chữ cái giãn cách ra xa nhau */
 }
 
-/* Hiệu ứng di chuột vào nút tìm kiếm */
-.search-btn:hover {
-    background-color: #f44336;
+.cau-slogan {
+  text-align: center;
+  font-style: italic;      /* Làm chữ in nghiêng */
+  color: gray;             /* Chữ màu xám */
 }
 
-/* ====================
-   NỘI DUNG CHÍNH
-==================== */
-.content {
-    max-width: 800px; /* Giới hạn chiều rộng nội dung để chữ không tràn lề */
-    margin: 0 auto;
-    padding: 64px 16px;
-    margin-top: 46px; /* Cách ra một khoảng bằng chiều cao của navbar fixed */
+.doan-van {
+  text-align: justify;     /* Căn đều 2 bên mép cho đoạn văn dài */
+  line-height: 1.5;        /* Giãn cách giữa các dòng chữ */
 }
 
-/* Phần chữ The Band */
-.section-heading {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 4px; /* Khoảng cách giữa các chữ cái */
-    margin: 10px 0;
+/* --- 3. DANH SÁCH THÀNH VIÊN --- */
+.danh-sach-thanh-vien {
+  display: flex;           /* Lệnh quan trọng: Bắt các phần tử bên trong phải xếp thành hàng ngang */
+  margin-top: 50px;        /* Cách đoạn văn bên trên 50px */
 }
 
-/* Phần chữ We love music */
-.section-sub-heading {
-    text-align: center;
-    font-size: 15px;
-    font-style: italic;
-    color: #777; /* Màu xám mờ */
-    margin: 15px 0;
+.mot-thanh-vien {
+  width: 33%;              /* Chia đều không gian cho 3 người (mỗi người chiếm 1/3) */
+  text-align: center;      /* Căn giữa chữ "Name" và Ảnh */
 }
 
-/* Đoạn văn mô tả */
-.about-text {
-    text-align: justify; /* Căn đều 2 bên */
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-}
-
-/* ====================
-   DANH SÁCH THÀNH VIÊN
-==================== */
-.members-list {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 32px;
-}
-
-.member-item {
-    text-align: center;
-    width: 30%;
-}
-
-.member-name {
-    font-size: 15px;
-    margin: 15px 0;
-}
-
-.member-img {
-    width: 60%;
-    border-radius: 4px; /* Bo góc nhẹ cho ảnh */
+.mot-thanh-vien img {
+  width: 150px;            /* Chỉnh ảnh nhỏ lại */
+  border-radius: 5px;      /* Bo tròn các góc của ảnh một chút */
 }
