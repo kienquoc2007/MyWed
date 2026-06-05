@@ -1,43 +1,115 @@
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+/* Thiết lập cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family:Arial, sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
 }
 
-header{
-    background:black;
+/* ====================
+   THANH ĐIỀU HƯỚNG
+==================== */
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between; /* Đẩy icon tìm kiếm sang phải */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
-.menu{
-    list-style:none;
-    display:flex;
+.nav-links {
+    list-style-type: none;
+    display: flex;
 }
 
-.menu a{
-    color:white;
-    text-decoration:none;
-    padding:15px 20px;
-    display:block;
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 24px;
+    display: inline-block;
+    font-size: 15px;
 }
 
-.about{
-    width:70%;
-    margin:50px auto;
-    text-align:center;
+/* Hiệu ứng di chuột vào link */
+.nav-links li:hover > a {
+    color: #000;
+    background-color: #ccc;
 }
 
-.members{
-    display:flex;
-    justify-content:center;
-    gap:50px;
-    text-align:center;
+.search-btn {
+    padding: 16px 24px;
+    color: white;
+    cursor: pointer;
 }
 
-.member img{
-    width:150px;
+/* Hiệu ứng di chuột vào nút tìm kiếm */
+.search-btn:hover {
+    background-color: #f44336;
+}
+
+/* ====================
+   NỘI DUNG CHÍNH
+==================== */
+.content {
+    max-width: 800px; /* Giới hạn chiều rộng nội dung để chữ không tràn lề */
+    margin: 0 auto;
+    padding: 64px 16px;
+    margin-top: 46px; /* Cách ra một khoảng bằng chiều cao của navbar fixed */
+}
+
+/* Phần chữ The Band */
+.section-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px; /* Khoảng cách giữa các chữ cái */
+    margin: 10px 0;
+}
+
+/* Phần chữ We love music */
+.section-sub-heading {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #777; /* Màu xám mờ */
+    margin: 15px 0;
+}
+
+/* Đoạn văn mô tả */
+.about-text {
+    text-align: justify; /* Căn đều 2 bên */
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* ====================
+   DANH SÁCH THÀNH VIÊN
+==================== */
+.members-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+
+.member-item {
+    text-align: center;
+    width: 30%;
+}
+
+.member-name {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.member-img {
+    width: 60%;
+    border-radius: 4px; /* Bo góc nhẹ cho ảnh */
 }
