@@ -1,0 +1,85 @@
+/* Reset & Khởi tạo phong cách Hiện đại */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+body { 
+  background-color: #f4f6f9; /* Nền xám nhạt sang trọng */
+  color: #333; 
+  line-height: 1.6;
+}
+a { 
+  text-decoration: none; 
+  color: #111; 
+  transition: all 0.2s ease; 
+}
+a:hover { 
+  color: #2b7a78; /* Đổi sang tone màu xanh teal hiện đại */
+}
+
+/* Thanh điều hướng phẳng (Flat Menu) */
+nav { 
+  background: #1f2833; /* Màu tối lịch lãm */
+  position: sticky; 
+  top: 0; 
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+nav div { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: flex; 
+  overflow-x: auto; 
+}
+nav div::-webkit-scrollbar { display: none; } /* Ẩn cuộn ngang */
+nav a { 
+  color: #c5a059; /* Chữ màu vàng đồng nhẹ */
+  padding: 16px 20px; 
+  font-weight: 600; 
+  font-size: 13px; 
+  white-space: nowrap; 
+  text-transform: uppercase;
+}
+nav a:hover { 
+  background: #2f3b4c; 
+  color: #fff; 
+}
+
+/* Bố cục lưới vô cực */
+main { 
+  max-width: 1200px; 
+  margin: 30px auto; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 340px; 
+  gap: 25px; 
+  padding: 0 15px; 
+}
+
+/* Thiết kế dạng thẻ (Card Layout) cho Cột 1 & 2 */
+section { 
+  background: #fff; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  display: flex;
+  flex-direction: column;
+}
+section img { 
+  width: 100%; 
+  height: 220px; 
+  object-fit: cover; 
+  border-radius: 6px; 
+  margin-bottom: 15px; 
+  transition: transform 0.3s ease;
+}
+section:hover img {
+  transform: scale(1.02); /* Hiệu ứng phóng to nhẹ hình ảnh khi rê chuột vào vùng tin */
+}
+h2 { 
+  font-size: 20px; 
+  font-weight: 700;
+  margin-bottom: 10px; 
+  line-height: 1.4;
+}
