@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:black;
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    display:block;
+}
+
+.about{
+    width:70%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.members{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    text-align:center;
+}
+
+.member img{
+    width:150px;
+}
